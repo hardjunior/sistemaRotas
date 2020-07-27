@@ -1,0 +1,27 @@
+{
+    "name": "juncinval/sistemaRotas",
+    "description": "Demonstração sistema de rotas com metodo crud com mvc e designer partner factory e singleton",
+    "authors": [
+        {
+            "name": "Ivamar Faustino",
+            "email": "hardjunior1@gmail.com"
+        }
+    ],
+	"license": "MIT",
+    "require": {
+        "symfony/var-dumper": "*"
+    },
+    "autoload" : {
+    	"psr-4": {
+    		"App\\" : "app/",
+    		"Src\\" : "src/"
+    	},
+        "files": [
+            "src/helpers/helper_routes.php",
+            "src/helpers/helpers.php",
+            "view/view.php"
+        ]
+        
+    }
+    
+}
